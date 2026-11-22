@@ -1,0 +1,14 @@
+
+[Unit]
+Description=Application Data Generator
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+ExecStart=/var/app/data-generator.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
