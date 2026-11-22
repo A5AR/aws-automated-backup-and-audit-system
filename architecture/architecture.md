@@ -21,7 +21,7 @@ flowchart TD
 
     L[Internet Gateway] --> B
     M[Temporary NAT Gateway] -.-> C
-</mermaid>
+
 ```
 
 ## Backup Workflow
